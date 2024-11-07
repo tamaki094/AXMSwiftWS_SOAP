@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\150.100.96.189\Procesos2\WEBSERVICES</_PublishTargetUrl>
+    <History>True|2024-11-05T20:11:46.6098943Z;True|2024-10-31T15:27:13.9767626-06:00;True|2024-10-31T15:18:52.2582852-06:00;True|2024-10-31T15:14:58.1012494-06:00;True|2024-10-31T15:08:55.0729622-06:00;True|2024-10-23T16:22:14.7308906-06:00;True|2024-10-23T15:07:48.6821455-06:00;True|2024-10-18T11:43:02.7283280-06:00;True|2024-10-18T08:18:26.5408147-06:00;True|2024-10-17T17:56:51.1529188-06:00;True|2024-10-14T17:37:18.7905836-06:00;True|2024-10-14T17:13:08.3953172-06:00;True|2024-10-14T16:54:36.7797270-06:00;True|2024-10-14T16:21:35.3890736-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AXMSwiftWS_4.0.dll">
+      <publishTime>11/05/2024 14:11:22</publishTime>
+    </File>
+    <File Include="bin/AXMSwiftWS_4.0.dll.config">
+      <publishTime>10/11/2024 13:24:12</publishTime>
+    </File>
+    <File Include="bin/AXMSwiftWS_4.0.pdb">
+      <publishTime>11/05/2024 14:11:22</publishTime>
+    </File>
+    <File Include="bin/AXMSwiftWS_SOAP.dll">
+      <publishTime>11/05/2024 14:11:22</publishTime>
+    </File>
+    <File Include="bin/AXMSwiftWS_SOAP.pdb">
+      <publishTime>11/05/2024 14:11:22</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/16/2024 14:46:24</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/16/2024 14:47:02</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>05/15/2018 07:29:52</publishTime>
+    </File>
+    <File Include="MT103Service.svc">
+      <publishTime>10/17/2024 18:18:28</publishTime>
+    </File>
+    <File Include="TKESwiftACKWS.svc">
+      <publishTime>10/17/2024 15:24:31</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/05/2024 14:11:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

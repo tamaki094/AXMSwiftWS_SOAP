@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a723116e56c418e9a9937bf00ed4b4c" Name="Diagram1">
+        <EntityTypeShape EntityType="TICKETModel.DEPOSITO" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.DEPOSITO_CED" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.DEPOSITO_DIRECTO" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.DEPOSITO_PME" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.OPERACION" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.OPERACION_DEFINIDA" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.OPERACION_PIU" Width="1.5" PointX="5.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.OPERACION_SWIFT" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TICKETModel.PARAMETRIZACION" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="TICKETModel.FK_DEPOSITO__OPERACION" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_DEPOSITO_CED__OPERACION" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_DEPOSITO_DIRECTO__OPERACION" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_DEPOSITO_PME__OPERACION" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_OP__OP_DEF" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_OPERAC_SWIFT__OPERACION" ManuallyRouted="false" />
+        <AssociationConnector Association="TICKETModel.FK_OPERACION_PIU__OP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

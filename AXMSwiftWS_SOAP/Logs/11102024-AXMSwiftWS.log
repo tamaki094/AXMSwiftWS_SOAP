@@ -1,0 +1,34 @@
+[11-10-2024 03:47:32]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[11-10-2024 03:49:42]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[11-10-2024 03:55:25]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[11-10-2024 03:59:06]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[11-10-2024 03:59:11]  Mensaje desde SendMessageDeliverySwift:  Primera ejecucion sp_piu_opera_ced
+[11-10-2024 03:59:11]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_opera_ced '8000377414  ', '0074', '3114', 'MB90784  ', 'APX0    ', '221', '-00000000005300', '20241011', '0359', '20241011', '0000000000', '0', '00000', '000000000000000', '0000000', '     ', 'USD', '                          USDMB90784 E02', '     ', '20241011', '     ', '                                                            ', '50', '     ', '     ', '     ', ' 000000000000000', '0000000', '00000', ''
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 =>                     
+             Mensaje2 =>                     
+             Saldo =>  000000002562455
+             Ticket => 5317299
+             Numero => 00931
+            
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  Segunda ejecucion sp_piu_opera_ced
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_opera_ced '8000377414  ', '0074', '3114', 'MB90784  ', 'APX0    ', '221', '-00000000005300', '20241011', '0359', '20241011', '0000000000', '3', '00000', '000000000000000', '5317299', '     ', 'USD', '                          USDMB90784 E02', '     ', '20241011', '     ', '                                                            ', '50', '     ', '     ', '     ', '  000000002562455', '5317299', '00000', ''
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 =>                     
+             Mensaje2 =>                     
+             Saldo =>  000000000000000
+             Ticket => 5317299
+             Numero => 00000
+            
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  Ejecucion sp_piu_gen_retiro_MT103
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_gen_retiro_MT103 '5317299', ':', '0', '1B  ', 'CMRMXMMA', 'O', 'PE0', ':', '1', '03B', 'CMRUS4HX', 'X', 'XXN', '}', ':', '08:', '0220TRTR5022367}', ':', 'T241011TR5022367', 'CRED', '241011', 'USD', '000000000053,00', '/8000377414  ', 'DINA CAMIONES,SA DECV', 'PRESIDENTE MASARYK 473 COL POLANCO ', ' III SECCION 11540 MIGUEL HIDALGO CI', 'UDAD DE MEXICO', '/', '8000377414  ', 'DINA CAMIONES,SA DECV', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '/', '00053', 'PNCBANK, NATIONAL ASSOC', 'PHILADELPHIA PA USA', '                                   ', '                                   ', '/', '8511033265', 'SOUTHCO INC' , 'NCYEU' , 'US/UNITED STATES' , 'US' , 'San diego' , 'DINA CAMIONES' , '                                   ' , '                                   ';
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  Ejecucion INSERT
+[11-10-2024 03:59:12]  Mensaje desde SendMessageDeliverySwift:  INSERT into TICKET..HOMOLOGACION_APX_DIST_PROD(TICKET_DIST, TICKET_APX) values(5317299, 5317299)
+[11-10-2024 03:59:13]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 => TRANSACCION EXITOSA 
+             Mensaje2 =>                     
+             Saldo => 5317299
+            

@@ -1,0 +1,17 @@
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_SOAP.dll.config
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_SOAP.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_SOAP.pdb
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\obj\Debug\AXMSwiftWS_SOAP.csproj.AssemblyReference.cache
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\obj\Debug\AXMSwiftWS_SOAP.csproj.CoreCompileInputs.cache
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\obj\Debug\AXMSwiftWS_SOAP.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\obj\Debug\AXMSwiftWS_SOAP.pdb
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_4.0.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\EntityFramework.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_4.0.pdb
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\AXMSwiftWS_4.0.dll.config
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\EntityFramework.xml
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\obj\Debug\AXMSwiftWS_SOAP.csproj.CopyComplete
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\System.ValueTuple.dll
+C:\Users\MI05332\source\repos\AXMSwiftWS_4.0\AXMSwiftWS_SOAP\bin\System.ValueTuple.xml

@@ -1,0 +1,73 @@
+[05-11-2024 11:05:04]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:05:21]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:05:30]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:05:49]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:05:54]  Mensaje desde SyncInvokeGetStatusMessageSwift:  Se hace una peticion GetStatusMessageSwift()
+[05-11-2024 11:09:39]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:12:59]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:13:48]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:33:03]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:33:57]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:34:50]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:38:09]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:46:22]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:46:54]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:50:15]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:54:23]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:55:58]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 11:57:25]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 12:00:33]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 01:56:07]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 01:56:07]  Mensaje desde SyncInvokeGetStatusMessageSwift:  Se hace una peticion GetStatusMessageSwift()
+[05-11-2024 01:56:42]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 01:56:42]  Mensaje desde SyncInvokeGetStatusMessageSwift:  Se hace una peticion GetStatusMessageSwift()
+[05-11-2024 01:58:22]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 01:58:22]  Mensaje desde SyncInvokeGetStatusMessageSwift:  Se hace una peticion GetStatusMessageSwift()
+[05-11-2024 02:03:30]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:03:30]  Mensaje desde SyncInvokeGetStatusMessageSwift:  Se hace una peticion GetStatusMessageSwift()
+[05-11-2024 02:04:03]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:04:03]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:06:30]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:06:30]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:07:28]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:07:31]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:08:05]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:08:08]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:08:47]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:08:47]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:08:50]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:08:50]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:09:19]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:09:19]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:10:39]  Mensaje desde CreateAXMSwiftWS_SOAP.MT103Service:  Inicia WS
+[05-11-2024 02:10:39]  Mensaje desde SyncInvokeSendMessageDeliverySwift:  Se hace una peticion SendMessageDeliverySwift()
+[05-11-2024 02:10:40]  Mensaje desde SendMessageDeliverySwift:  Primera ejecucion sp_piu_opera_ced
+[05-11-2024 02:10:40]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_opera_ced '8000377414  ', '0074', '3114', 'MB90784  ', 'APX0    ', '221', '-00000000005300', '20241105', '0210', '20241105', '0000000000', '0', '00000', '000000000000000', '0000000', '     ', 'USD', '                          USDMB90784 E02', '     ', '20241105', '     ', '                                                            ', '60', '     ', '     ', '     ', ' 000000000000000', '0000000', '00000', ''
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 =>                     
+             Mensaje2 =>                     
+             Saldo =>  000000002802055
+             Ticket => 0010340
+             Numero => 00001
+            
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  Segunda ejecucion sp_piu_opera_ced
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_opera_ced '8000377414  ', '0074', '3114', 'MB90784  ', 'APX0    ', '221', '-00000000005300', '20241105', '0210', '20241105', '0000000000', '3', '00000', '000000000000000', '0010340', '     ', 'USD', '                          USDMB90784 E02', '     ', '20241105', '     ', '                                                            ', '60', '     ', '     ', '     ', '  000000002802055', '0010340', '00000', ''
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 =>                     
+             Mensaje2 =>                     
+             Saldo =>  000000002793755
+             Ticket => 0010342
+             Numero => 00003
+            
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  Ejecucion sp_piu_gen_retiro_MT103
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  EXEC TICKET..sp_piu_gen_retiro_MT103 '0010340', ':', '0', '1B  ', 'CMRMXMMA', 'O', 'PE0', ':', '1', '03B', 'CMRUS4HX', 'X', 'XXN', '}', ':', '08:', '0220TRTR5022367}', ':', 'T241105TR5022367', 'CRED', '241105', 'USD', '000000000053,00', '/8000377414  ', 'DINA CAMIONES,SA DECV', 'PRESIDENTE MASARYK 473 COL POLANCO ', ' III SECCION 11540 MIGUEL HIDALGO CI', 'UDAD DE MEXICO', '/', '8000377414  ', 'DINA CAMIONES,SA DECV', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '                                   ', '/', '00053', 'PNCBANK, NATIONAL ASSOC', 'PHILADELPHIA PA USA', '                                   ', '                                   ', '/', '8511033265', 'SOUTHCO INC' , 'NCYEU' , 'US/UNITED STATES' , 'US' , 'San diego' , 'DINA CAMIONES' , '                                   ' , '                                   ';
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  Ejecucion INSERT
+[05-11-2024 02:10:42]  Mensaje desde SendMessageDeliverySwift:  INSERT into TICKET..HOMOLOGACION_APX_DIST_PROD(TICKET_DIST, TICKET_APX) values(0010340, 0010340)
+[05-11-2024 02:10:45]  Mensaje desde SendMessageDeliverySwift:  
+             Codigo => TKA0000
+             Mensaje1 => TRANSACCION EXITOSA 
+             Mensaje2 =>                     
+             Saldo => 0010340
+            

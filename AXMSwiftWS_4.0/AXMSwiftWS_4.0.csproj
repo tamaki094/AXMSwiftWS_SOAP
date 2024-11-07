@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F971B20E-C320-49C6-B0A7-7C1C74885A16}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AXMSwiftWS_4._0</RootNamespace>
+    <AssemblyName>AXMSwiftWS_4.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\Funciones.cs" />
+    <Compile Include="Business\Log.cs" />
+    <Compile Include="Models\AXMException.cs" />
+    <Compile Include="Models\DEPOSITO.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DEPOSITO_CED.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DEPOSITO_DIRECTO.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DEPOSITO_PME.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IEnumerableResponse.cs" />
+    <Compile Include="Models\ITransfInternacional.cs" />
+    <Compile Include="Models\OPERACION.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OPERACION_DEFINIDA.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OPERACION_PIU.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OPERACION_SWIFT.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PARAMETRIZACION.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PiuGenRetiroMT103DTO.cs" />
+    <Compile Include="Models\PiuOperaCedDTO.cs" />
+    <Compile Include="Models\SenderHeader.cs" />
+    <Compile Include="Models\SpPiuGenRetiroMT103Response.cs" />
+    <Compile Include="Models\SpPiuOperaCedResponse.cs" />
+    <Compile Include="Models\sp_piu_gen_retiro_MT103_Result.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_piu_gen_retiro_XML103_Result.cs">
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusMT103Request.cs" />
+    <Compile Include="Models\TicketDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TicketDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TicketDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tickets.cs" />
+    <Compile Include="Models\TKEException.cs" />
+    <Compile Include="Models\TKEResponse.cs" />
+    <Compile Include="Models\TransfInternacionalDAO.cs" />
+    <Compile Include="Models\TransfInternacionalDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="Models\TicketDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TicketDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\TicketDB.edmx.diagram">
+      <DependentUpon>TicketDB.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\TicketDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TicketDB.edmx</DependentUpon>
+      <LastGenOutput>TicketDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\TicketDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TicketDB.edmx</DependentUpon>
+      <LastGenOutput>TicketDB.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

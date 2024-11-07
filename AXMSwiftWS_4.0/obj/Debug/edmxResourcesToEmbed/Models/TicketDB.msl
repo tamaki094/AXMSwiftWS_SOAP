@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TICKETModelStoreContainer" CdmEntityContainer="TICKETEntities">
+    <EntitySetMapping Name="DEPOSITO">
+      <EntityTypeMapping TypeName="TICKETModel.DEPOSITO">
+        <MappingFragment StoreEntitySet="DEPOSITO">
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="en_firme" ColumnName="en_firme" />
+          <ScalarProperty Name="destino" ColumnName="destino" />
+          <ScalarProperty Name="otros" ColumnName="otros" />
+          <ScalarProperty Name="tipo_documento" ColumnName="tipo_documento" />
+          <ScalarProperty Name="otro_documento" ColumnName="otro_documento" />
+          <ScalarProperty Name="tipo_moneda" ColumnName="tipo_moneda" />
+          <ScalarProperty Name="folio_linea_servicio" ColumnName="folio_linea_servicio" />
+          <ScalarProperty Name="referencia_ced" ColumnName="referencia_ced" />
+          <ScalarProperty Name="causa" ColumnName="causa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPOSITO_CED">
+      <EntityTypeMapping TypeName="TICKETModel.DEPOSITO_CED">
+        <MappingFragment StoreEntitySet="DEPOSITO_CED">
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="codigo_leyenda" ColumnName="codigo_leyenda" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="referencia" ColumnName="referencia" />
+          <ScalarProperty Name="tipo_cambio" ColumnName="tipo_cambio" />
+          <ScalarProperty Name="codigo_operacion" ColumnName="codigo_operacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPOSITO_DIRECTO">
+      <EntityTypeMapping TypeName="TICKETModel.DEPOSITO_DIRECTO">
+        <MappingFragment StoreEntitySet="DEPOSITO_DIRECTO">
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="referencia" ColumnName="referencia" />
+          <ScalarProperty Name="narrativa1" ColumnName="narrativa1" />
+          <ScalarProperty Name="narrativa2" ColumnName="narrativa2" />
+          <ScalarProperty Name="narrativa3" ColumnName="narrativa3" />
+          <ScalarProperty Name="narrativa4" ColumnName="narrativa4" />
+          <ScalarProperty Name="tipo_movimiento" ColumnName="tipo_movimiento" />
+          <ScalarProperty Name="grupo_usuario" ColumnName="grupo_usuario" />
+          <ScalarProperty Name="numero_secuencia" ColumnName="numero_secuencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPOSITO_PME">
+      <EntityTypeMapping TypeName="TICKETModel.DEPOSITO_PME">
+        <MappingFragment StoreEntitySet="DEPOSITO_PME">
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="centro_regional" ColumnName="centro_regional" />
+          <ScalarProperty Name="nombre_centro_regional" ColumnName="nombre_centro_regional" />
+          <ScalarProperty Name="plaza" ColumnName="plaza" />
+          <ScalarProperty Name="nombre_plaza" ColumnName="nombre_plaza" />
+          <ScalarProperty Name="sucursal" ColumnName="sucursal" />
+          <ScalarProperty Name="nombre_sucursal" ColumnName="nombre_sucursal" />
+          <ScalarProperty Name="referencia" ColumnName="referencia" />
+          <ScalarProperty Name="fecha_cierre" ColumnName="fecha_cierre" />
+          <ScalarProperty Name="causa" ColumnName="causa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OPERACION">
+      <EntityTypeMapping TypeName="TICKETModel.OPERACION">
+        <MappingFragment StoreEntitySet="OPERACION">
+          <ScalarProperty Name="operacion1" ColumnName="operacion" />
+          <ScalarProperty Name="producto_contratado" ColumnName="producto_contratado" />
+          <ScalarProperty Name="operacion_definida" ColumnName="operacion_definida" />
+          <ScalarProperty Name="fecha_captura" ColumnName="fecha_captura" />
+          <ScalarProperty Name="status_operacion" ColumnName="status_operacion" />
+          <ScalarProperty Name="fecha_operacion" ColumnName="fecha_operacion" />
+          <ScalarProperty Name="monto_operacion" ColumnName="monto_operacion" />
+          <ScalarProperty Name="usuario_captura" ColumnName="usuario_captura" />
+          <ScalarProperty Name="usuario_valida" ColumnName="usuario_valida" />
+          <ScalarProperty Name="linea" ColumnName="linea" />
+          <ScalarProperty Name="funcionario" ColumnName="funcionario" />
+          <ScalarProperty Name="contacto" ColumnName="contacto" />
+          <ScalarProperty Name="grabadora" ColumnName="grabadora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OPERACION_DEFINIDA">
+      <EntityTypeMapping TypeName="TICKETModel.OPERACION_DEFINIDA">
+        <MappingFragment StoreEntitySet="OPERACION_DEFINIDA">
+          <ScalarProperty Name="operacion_definida1" ColumnName="operacion_definida" />
+          <ScalarProperty Name="descripcion_operacion_definida" ColumnName="descripcion_operacion_definida" />
+          <ScalarProperty Name="producto" ColumnName="producto" />
+          <ScalarProperty Name="descripcion_kapiti" ColumnName="descripcion_kapiti" />
+          <ScalarProperty Name="code_kapiti_cliente" ColumnName="code_kapiti_cliente" />
+          <ScalarProperty Name="code_kapiti_banco" ColumnName="code_kapiti_banco" />
+          <ScalarProperty Name="cuenta_kapiti_banco" ColumnName="cuenta_kapiti_banco" />
+          <ScalarProperty Name="sufijo_kapiti_banco" ColumnName="sufijo_kapiti_banco" />
+          <ScalarProperty Name="operacion_definida_global" ColumnName="operacion_definida_global" />
+          <ScalarProperty Name="agencia" ColumnName="agencia" />
+          <ScalarProperty Name="tipo_operacion" ColumnName="tipo_operacion" />
+          <ScalarProperty Name="descripcion_interfaz_ced" ColumnName="descripcion_interfaz_ced" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OPERACION_PIU">
+      <EntityTypeMapping TypeName="TICKETModel.OPERACION_PIU">
+        <MappingFragment StoreEntitySet="OPERACION_PIU">
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="operacion_piu1" ColumnName="operacion_piu" />
+          <ScalarProperty Name="fecha_operacion" ColumnName="fecha_operacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OPERACION_SWIFT">
+      <EntityTypeMapping TypeName="TICKETModel.OPERACION_SWIFT">
+        <MappingFragment StoreEntitySet="OPERACION_SWIFT">
+          <ScalarProperty Name="no_rep_swift" ColumnName="no_rep_swift" />
+          <ScalarProperty Name="operacion" ColumnName="operacion" />
+          <ScalarProperty Name="hora_envio" ColumnName="hora_envio" />
+          <ScalarProperty Name="numero_reporte_202" ColumnName="numero_reporte_202" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARAMETRIZACION">
+      <EntityTypeMapping TypeName="TICKETModel.PARAMETRIZACION">
+        <MappingFragment StoreEntitySet="PARAMETRIZACION">
+          <ScalarProperty Name="parametro" ColumnName="parametro" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="unidad_banca" ColumnName="unidad_banca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_piu_gen_retiro_MT103" FunctionName="TICKETModel.Store.sp_piu_gen_retiro_MT103">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TICKETModel.sp_piu_gen_retiro_MT103_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Column2" ColumnName="Column2" />
+          <ScalarProperty Name="Column3" ColumnName="Column3" />
+          <ScalarProperty Name="Column4" ColumnName="Column4" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_piu_gen_retiro_XML103" FunctionName="TICKETModel.Store.sp_piu_gen_retiro_XML103">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TICKETModel.sp_piu_gen_retiro_XML103_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Column2" ColumnName="Column2" />
+          <ScalarProperty Name="Column3" ColumnName="Column3" />
+          <ScalarProperty Name="Column4" ColumnName="Column4" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
